@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Shake OA</string>
+
+    <!-- Tab Name-->
+    <string name="tab_shake_to_open_app">Shake to...</string>
+    <string name="tab_tap_to">Tap to...</string>
+
+    <string name="action_text">Action</string>
+    <string name="horizonal_shaken">Horizonal Shaken</string>
+    <string name="vertial_shaken">Vertial Shaken</string>
+    <string name="behind_shaken">Behind Shaken</string>
+    <string name="forward_shaken">Forward Shaken</string>
+    <string name="open_app">Application</string>
+    <string name="choose_app">Choose Application</string>
+    <string name="choose_contact">Choose Contact</string>
+    <string name="input_phone_no">Input Phone no</string>
+
+    <string name="do_nothing">Do nothing when shake</string>
+    <!--String array-->
+    <string-array name="array_action_shake">
+        <item>Nothing</item>
+        <item>Open App</item>
+        <item>Call a contact</item>
+        <item>Turn on/off Wifi</item>
+        <item>Turn on/off 3/4G</item>
+        <item>Turn on/off Flash</item>
+        <item>Turn on/off Screen</item>
+        <item>Switch ringer mode</item>
+    </string-array>
+</resources>

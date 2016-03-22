@@ -1,6 +1,14 @@
 [
     {
-        "merged": "/home/ray-jason/TinhVV/android-project/shake-open-app/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
-        "source": "/home/ray-jason/TinhVV/android-project/shake-open-app/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Ray\\OneDrive\\Android\\Projects\\shake-open-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Ray\\OneDrive\\Android\\Projects\\shake-open-app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tinhvv\\My-Projects\\shake-open-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\tinhvv\\My-Projects\\shake-open-app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\home\\ray-jason\\TinhVV\\android-project\\shake-open-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\home\\ray-jason\\TinhVV\\android-project\\shake-open-app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

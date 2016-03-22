@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/btn_choose_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="left|center_vertical"
+            android:layout_toLeftOf="@+id/image_icon_app"
+            android:layout_toStartOf="@+id/image_icon_app"
+            android:background="@drawable/bg_custom_sniper"
+            android:minHeight="50dp"
+            android:minWidth="56dp"
+            android:padding="10dp"
+            android:text="@string/choose_app"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_icon_app"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/btn_choose_app"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|center_vertical"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/open_app"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            app:civ_border_color="@color/primary_dark"
+            app:civ_border_width="2dp"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+</LinearLayout>

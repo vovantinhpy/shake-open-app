@@ -4,8 +4,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
+import com.tinhvv.shakeoa.fragment.ApplicationFragment;
 import com.tinhvv.shakeoa.fragment.DemoFragment;
-import com.tinhvv.shakeoa.fragment.ShakeOAFragment;
+import com.tinhvv.shakeoa.fragment.ShakeFragment;
 
 /**
  * Created by ray-jason on 22/02/2016.
@@ -31,10 +32,10 @@ public class ShakePagerAdapter extends FragmentStatePagerAdapter {
                 DemoFragment tab1 = new DemoFragment();
                 return tab1;
             case 1:
-                ShakeOAFragment tab2 = new ShakeOAFragment();
+                ShakeFragment tab2 = new ShakeFragment();
                 return tab2;
             case 2:
-                ShakeOAFragment tab3 = new ShakeOAFragment();
+                ApplicationFragment tab3 = new ApplicationFragment();
                 return tab3;
             default:
                 return null;
